@@ -1,48 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Perfil</title>
+    <link rel="icon" type:="image/jpeg" href="assets/images/WhatsApp Image 2023-05-03 at 13.16.26.jpeg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portifólio</title>
 </head>
+
 <body>
     <nav>
-        <div>
-            <h1>Portifólio Bianca Oliveira</h1>
+        <div class="logo">
+            <img class="icone" src="assets/images/WhatsApp Image 2023-05-03 at 13.16.26.jpeg" alt="Logo da pagina">
+            <span class="titulo">Portifólio Bianca Oliveira</span>
         </div>
 
+    
         <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="contato.html">Contato</a>
-            </li>
+           
+            <li><a href="index.html">Home</a></li>
+            <li>Sobre</li>
+            <li>Música Preferida</li>
+            <li><a href="Contato.html">Contato</a></li>
+    
         </ul>
     </nav>
+   
     
     <main>
-        <h2>Sobre Bianca:</h2>
-        <section>
-            <div>
+        <h1>Sobre Bianca:</h1>
+        <section id="sobre">
+            <div class="texto_sobre">
                 <p>Olá, Bom dia, meu nome é Barbara Bianca de Carvalho Oliveira, e  todo mundo me conhece como Bianca, tenho 19 anos, nasci e moro em Mogi das Cruzes São Paulo, meus hobbies incluem dançar, escrever poesias e ir academia sempre fui  conhecida por ser extremamente comunicativa e empática o que me abriu muitos caminhos pelo meio da comunicação,
                     eu nunca me imaginei no mercado tech até uns 2 anos atrás quando estava muito confusa de que área seguir após o ensino médio e comecei a conversar com algumas pessoas que faziam tech até que comecei a pesquisar um pouco sobre a área e comecei um curso de Java para iniciantes e percebi que era algo que me fez brilhar os olhos, foi quando me deparei com a Generation Brasil e fiz o Bootcamp de Java Full Stack junior, nele aprendi muito como SQL, Java , React, JavaScript, e mais, além de metodologias ágeis e habilidades e mentalidaes em geral o que me deixou mais engajada na minha trajetória de conhecimento onde o próximo passo é fazer faculdade de engenharia de software, estou ansiosa para aplicar todos esses conhecimentos acrescentando na empresa e no meu desenvolvimento pessoal com o time, espero que possa ser com vocês, muito obrigada pela atenção!</p>
-                     
-            <img src="assets/images/WhatsApp Image 2023-05-03 at 13.16.26.jpeg" alt="Bianca">
-
+            </div>
+            <img class="foto" src="assets/images/WhatsApp Image 2023-05-03 at 13.16.26.jpeg" alt="Bianca">
         </section>
-        <h3>Minha Música Preferida:</h3>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/82pH37Y0qC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+        <h1>Video:</h1>
+        <section id="video">
+            <h3>Minha música preferida:</h3>
+        <iframe class="video"width="560" height="315" src="https://www.youtube.com/embed/82pH37Y0qC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
        </section>
-       <h4>Meu personagem preferido: </h4>
-
-             <img src="assets/images/zoro.jpg" alt="Zoro">
-
+       <p>Desenvolvido por Bianca - 2023 &copy;</p>
     </main>
-
+    <footer>
+        <div class="redes_sociais">
+            <a href="http://linkedin.com" target="_blank">
+                <img class="icons" src="assets/images/linkedin.png" alt="Linkedin">
+            </a>
+            <a href="http://github.com">
+                <img class="icons" src="assets/images/github.png" alt="github">
+            </a>
+            <a href="http://instagram.com">
+                <img class="icons" src="assets/images/instagram.jpg" alt="instagram">
+            </a>
+        </div>
+        <p class="by">Desenvolvido por Bianca Oliveira - 2023 &copy;</p>
+    </footer>
 
 </body>
 
