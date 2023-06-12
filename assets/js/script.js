@@ -32,7 +32,7 @@ function validarNome() {
 function validarEmail() {
     let txtEmail = document.querySelector("#txtEmail");
 
-    if (email.value.indexOf("@") == -1 || email.value.indexOf(".") == -1) {
+    if (email.value.indexOf("@") == -1 || email.value.indexOf(".com") == -1) {
         txtEmail.innerHTML = "E-mail inválido";
         txtEmail.style.color = "red";
         emailOk = false;
@@ -61,7 +61,7 @@ function validarEmail2() {
 function validarMensagem() {
     let txtMensagem = document.querySelector("#txtMensagem");
 
-    if (mensagem.value.length <= 50) {
+    if (mensagem.value.length >= 50) {
         txtMensagem.innerHTML = "Mensagem muito grande!";
         txtMensagem.style.color = "red";
         mensagemOk = false;

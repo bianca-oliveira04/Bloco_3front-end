@@ -30,20 +30,20 @@
             <div class ="campos-form">
     <label for="nome">Nome:</label>
     <input id= "nome" name="name" type="text"
-    placeholder="Insira o seu nome completo">
+    placeholder="Insira o seu nome completo" onkeyup="validarNome()">
     <div id="txtNome"></div>
 
     <div class="campos-form">
         <label for="email">E-mail:</label>
         <input id="email" name="email" type="text"
-            placeholder="Insira o seu e-mail">
+            placeholder="Insira o seu e-mail"onkeyup="validarEmail()"onkeyup="validarEmail2()">
         <div id="txtEmail"></div>
     </div>
 
     <div class="campos-form">
         <label for="mensagem">Mensagem:</label>
         <textarea id="mensagem" name="mensagem" rows="8"
-            placeholder="Deixe sua mensagem..."></textarea>
+            placeholder="Deixe sua mensagem..."onkeyup="validarMensagem()"></textarea>
         <div id="txtMensagem"></div>
     </div>
 
